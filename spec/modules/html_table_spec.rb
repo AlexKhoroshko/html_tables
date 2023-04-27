@@ -34,19 +34,19 @@ RSpec.describe HtmlTable do
       end
 
       it 'returns the HTML table string' do
-        expected_html = '<table class="my-table" style="border: 1px solid black" width="500" height="300" border="1" cellpadding="1">' \
-                        '<thead class="header-cell" style="">' \
+        expected_html = "<table class='my-table' style='border: 1px solid black' width='500' height='300' border='1' cellpadding='1'>" \
+                        "<thead class='header-cell' style=''>" \
                         '<tr>' \
                         '<th>Header 1</th>' \
                         '<th>Header 2</th>' \
                         '</tr>' \
                         '</thead>' \
                         '<tbody>' \
-                        '<tr class="data-cell" style="">' \
+                        "<tr class='data-cell' style=''>" \
                         '<td>Data 1</td>' \
                         '<td>Data 2</td>' \
                         '</tr>' \
-                        '<tr class="data-cell" style="">' \
+                        "<tr class='data-cell' style=''>" \
                         '<td>Data 3</td>' \
                         '<td>Data 4</td>' \
                         '</tr>' \
