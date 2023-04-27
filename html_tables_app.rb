@@ -1,6 +1,5 @@
 require 'rack'
 require 'json'
-require 'html_table_dsl'
 require_relative 'modules/html_table'
 
 class HtmlTablesApp

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/AlexKhoroshko/html_table_dsl.git
-  revision: 1e06a045557c96194471bc312948465831c77a7f
+  revision: ee64b04e83215df702f1cda6103bac5d5a56e313
   specs:
     html_table_dsl (0.1.0)
 
