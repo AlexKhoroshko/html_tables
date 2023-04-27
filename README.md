@@ -60,7 +60,3 @@ response format example:
 
 {"data":"&lt;table class=&#39;my-table&#39; style=&#39;border: solid black&#39; width=&#39;800px&#39; height=&#39;500px&#39; border=&#39;2&#39; cellpadding=&#39;10&#39;&gt;&lt;thead class=&#39;header-cell&#39; style=&#39;font-weight: bold; text-align: center; background-color: lightgray;&#39;&gt;&lt;tr&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Age&lt;/th&gt;&lt;th&gt;Email&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr class=&#39;data-cell&#39; style=&#39;background-color: lightgray;&#39;&gt;&lt;td&gt;John Doe&lt;/td&gt;&lt;td&gt;25&lt;/td&gt;&lt;td&gt;john.doe@example.com&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&#39;data-cell&#39; style=&#39;background-color: lightblue;&#39;&gt;&lt;td&gt;Jane Smith&lt;/td&gt;&lt;td&gt;30&lt;/td&gt;&lt;td&gt;jane.smith@example.com&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&#39;data-cell&#39; style=&#39;background-color: lightgray;&#39;&gt;&lt;td&gt;Bob Johnson&lt;/td&gt;&lt;td&gt;41&lt;/td&gt;&lt;td&gt;bob.johnson@example.com&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;"}
 
-
-## License
-
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
