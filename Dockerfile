@@ -1,8 +1,7 @@
-FROM ruby:3
+FROM ruby:3.0
 
 RUN apt-get update && apt-get install -y build-essential
 
-RUN mkdir /app
 WORKDIR /app
 
 COPY Gemfile Gemfile.lock ./
@@ -13,4 +12,4 @@ COPY . .
 
 EXPOSE 9292
 
-CMD ["rackup", "config.ru", "-p", "9292", "-s", "thin", "-o", "0.0.0.0"]
+CMD ["rackup", "-o", "0.0.0.0", "-p", "9292", "config.ru"]
