@@ -19,19 +19,23 @@ module HtmlTable
       table class: table_class, style: table_style, width: table_width, height: table_height,
             border: table_border, cellpadding: table_cellpadding do
         header class: headers[:header_class], style: headers[:header_style] do
-          headers[:headers].each do |header|
-            cell header
+          row do
+            headers[:headers].each do |header|
+              cell header
+            end
           end
         end
 
-        rows.each do |row|
-          row_data = row[:data]
-          row_class = row[:row_class]
-          row_style = row[:row_style]
+        body do
+          rows.each do |row|
+            row_data = row[:data]
+            row_class = row[:row_class]
+            row_style = row[:row_style]
 
-          row class: row_class, style: row_style do
-            row_data.each do |cell_data|
-              cell cell_data
+            row class: row_class, style: row_style do
+              row_data.each do |cell_data|
+                cell cell_data
+              end
             end
           end
         end
